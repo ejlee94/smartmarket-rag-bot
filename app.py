@@ -15,8 +15,19 @@ st.set_page_config(
 )
 
 st.title("🛒 SmartMarket Assistant")
-st.caption("Posez vos questions sur le catalogue et les promotions en cours.")
+st.caption("Posez vos questions sur le catalogue produits et les promotions en cours.")
 
+st.markdown("**💡 Exemples de questions :**")
+col1, col2, col3 = st.columns(3)
+with col1:
+    if st.button("🏷️ Produits à moins de 2€"):
+        st.session_state.exemple = "Donne moi la liste des produits ayant un prix inférieur à 2€"
+with col2:
+    if st.button("🥤 Rayon Boissons"):
+        st.session_state.exemple = "Quels sont les produits disponibles dans le rayon Boissons ?"
+with col3:
+    if st.button("🎁 Promotions en cours"):
+        st.session_state.exemple = "Quels produits sont en promotion en ce moment ?"
 @st.cache_resource
 def load_vectorstore():
     return Chroma(
@@ -64,9 +75,40 @@ def detecter_filtre_prix(question):
 
 def repondre(question, vectorstore):
     q_lower = question.lower()
-    
-    # Détection question sur les catégories
-    if any(mot in q_lower for mot in ["catégorie", "categorie", "rayon", "rayons"]):
+
+    # Liste des catégories connues
+    categories_connues = ["produits laitiers", "boissons", "boulangerie", 
+                          "lessive et entretien", "epicerie salée", "épicerie salée"]
+
+    # Détection question sur UNE catégorie spécifique → liste les produits de ce rayon
+    categorie_ciblee = None
+    for cat in categories_connues:
+        if cat in q_lower:
+            categorie_ciblee = cat
+            break
+
+    if categorie_ciblee:
+        docs = vectorstore.get(include=["documents", "metadatas"])
+        vus = set()
+        produits = []
+        for doc, meta in zip(docs["documents"], docs["metadatas"]):
+            if meta.get("categorie", "").lower() == categorie_ciblee:
+                nom_match = re.search(r"Nom\s*:\s*(.+)", doc)
+                marque_match = re.search(r"Marque\s*:\s*(.+)", doc)
+                if nom_match:
+                    nom = nom_match.group(1).strip()
+                    marque = marque_match.group(1).strip() if marque_match else ""
+                    entree = f"{nom} — {marque}" if marque else nom
+                    if entree not in vus:
+                        vus.add(entree)
+                        produits.append(f"- {entree}")
+        if produits:
+            return f"Voici les produits disponibles dans le rayon **{categorie_ciblee.title()}** :\n\n" + "\n".join(sorted(produits))
+        else:
+            return f"Aucun produit trouvé dans le rayon {categorie_ciblee}."
+
+    # Détection question sur TOUTES les catégories → liste les catégories
+    if any(mot in q_lower for mot in ["catégorie", "categorie", "rayons disponibles", "quels rayons"]):
         docs = vectorstore.get(include=["metadatas"])
         categories = sorted(set(
             meta["categorie"]
@@ -98,7 +140,6 @@ def repondre(question, vectorstore):
                     vus.add(nom)
                     prix = meta.get("prix", "?")
                     produits.append(f"- {nom} : {prix}€")
-
         if produits:
             seuil = f"{'moins' if operateur == 'lt' else 'plus'} de {valeur}€"
             return f"Voici les produits à {seuil} :\n\n" + "\n".join(sorted(produits))
@@ -116,6 +157,19 @@ if "messages" not in st.session_state:
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
+
+# Gestion des exemples cliquables
+if "exemple" in st.session_state and st.session_state.exemple:
+    question_auto = st.session_state.exemple
+    st.session_state.exemple = None
+    st.session_state.messages.append({"role": "user", "content": question_auto})
+    with st.chat_message("user"):
+        st.markdown(question_auto)
+    with st.chat_message("assistant"):
+        with st.spinner("Recherche en cours..."):
+            reponse = repondre(question_auto, vectorstore)
+        st.markdown(reponse)
+    st.session_state.messages.append({"role": "assistant", "content": reponse})
 
 if question := st.chat_input("Ex: Quels produits sont en promotion cette semaine ?"):
     st.session_state.messages.append({"role": "user", "content": question})
