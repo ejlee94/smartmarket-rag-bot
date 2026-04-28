@@ -1,8 +1,9 @@
 import streamlit as st
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_community.vectorstores import Chroma
-from langchain.chains.retrieval_qa.base import RetrievalQA
 from langchain.prompts import PromptTemplate
+from langchain_core.runnables import RunnablePassthrough
+from langchain_core.output_parsers import StrOutputParser
 from dotenv import load_dotenv
 import re
 
@@ -15,19 +16,8 @@ st.set_page_config(
 )
 
 st.title("🛒 SmartMarket Assistant")
-st.caption("Posez vos questions sur le catalogue produits et les promotions en cours.")
+st.caption("Posez vos questions sur le catalogue et les promotions en cours.")
 
-st.markdown("**💡 Exemples de questions :**")
-col1, col2, col3 = st.columns(3)
-with col1:
-    if st.button("🏷️ Produits à moins de 2€"):
-        st.session_state.exemple = "Donne moi la liste des produits ayant un prix inférieur à 2€"
-with col2:
-    if st.button("🥤 Rayon Boissons"):
-        st.session_state.exemple = "Quels sont les produits disponibles dans le rayon Boissons ?"
-with col3:
-    if st.button("🎁 Promotions en cours"):
-        st.session_state.exemple = "Quels produits sont en promotion en ce moment ?"
 @st.cache_resource
 def load_vectorstore():
     return Chroma(
@@ -36,8 +26,7 @@ def load_vectorstore():
     )
 
 def load_qa_chain(vectorstore, k=10):
-    prompt_template = """
-Tu es un assistant pour le supermarché SmartMarket.
+    prompt_template = """Tu es un assistant pour le supermarché SmartMarket.
 Réponds uniquement à partir des informations du catalogue ci-dessous.
 Si tu ne trouves pas l'information, dis-le clairement.
 Lorsque tu listes des produits, précise toujours que c'est une sélection d'exemples et non une liste exhaustive.
@@ -54,16 +43,22 @@ Réponse :"""
         input_variables=["context", "question"]
     )
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
-    return RetrievalQA.from_chain_type(
-        llm=llm,
-        retriever=vectorstore.as_retriever(search_kwargs={"k": k}),
-        chain_type_kwargs={"prompt": prompt}
+    retriever = vectorstore.as_retriever(search_kwargs={"k": k})
+
+    def format_docs(docs):
+        return "\n\n".join(doc.page_content for doc in docs)
+
+    chain = (
+        {"context": retriever | format_docs, "question": RunnablePassthrough()}
+        | prompt
+        | llm
+        | StrOutputParser()
     )
+    return chain
 
 def detecter_filtre_prix(question):
-    """Détecte si la question contient un filtre de prix et retourne (operateur, valeur)"""
     q = question.lower()
-    match = re.search(r"(moins|inférieur|plus|supérieur|égal)\s*(de|à|ou égal à)?\s*(\d+[\.,]?\d*)\s*€?", q)
+    match = re.search(r"(moins|inférieur|plus|supérieur)\s*(de|à|ou égal à)?\s*(\d+[\.,]?\d*)\s*€?", q)
     if match:
         operateur = match.group(1)
         valeur = float(match.group(3).replace(",", "."))
@@ -76,11 +71,9 @@ def detecter_filtre_prix(question):
 def repondre(question, vectorstore):
     q_lower = question.lower()
 
-    # Liste des catégories connues
-    categories_connues = ["produits laitiers", "boissons", "boulangerie", 
+    categories_connues = ["produits laitiers", "boissons", "boulangerie",
                           "lessive et entretien", "epicerie salée", "épicerie salée"]
 
-    # Détection question sur UNE catégorie spécifique → liste les produits de ce rayon
     categorie_ciblee = None
     for cat in categories_connues:
         if cat in q_lower:
@@ -107,7 +100,6 @@ def repondre(question, vectorstore):
         else:
             return f"Aucun produit trouvé dans le rayon {categorie_ciblee}."
 
-    # Détection question sur TOUTES les catégories → liste les catégories
     if any(mot in q_lower for mot in ["catégorie", "categorie", "rayons disponibles", "quels rayons"]):
         docs = vectorstore.get(include=["metadatas"])
         categories = sorted(set(
@@ -121,14 +113,12 @@ def repondre(question, vectorstore):
         else:
             return "Impossible de récupérer les catégories."
 
-    # Détection filtre prix
     operateur, valeur = detecter_filtre_prix(question)
     if operateur and valeur:
         if operateur == "lt":
             filtre = {"prix": {"$lt": valeur}}
         else:
             filtre = {"prix": {"$gt": valeur}}
-
         docs = vectorstore.get(where=filtre, include=["documents", "metadatas"])
         vus = set()
         produits = []
@@ -146,19 +136,30 @@ def repondre(question, vectorstore):
         else:
             return "Aucun produit trouvé avec ce critère de prix."
 
-    # Question normale → RAG classique
-    qa_chain = load_qa_chain(vectorstore)
-    return qa_chain.invoke(question)["result"]
+    chain = load_qa_chain(vectorstore)
+    return chain.invoke(question)
+
 vectorstore = load_vectorstore()
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+st.markdown("**💡 Exemples de questions :**")
+col1, col2, col3 = st.columns(3)
+with col1:
+    if st.button("🏷️ Produits à moins de 2€"):
+        st.session_state.exemple = "Donne moi la liste des produits ayant un prix inférieur à 2€"
+with col2:
+    if st.button("🥤 Rayon Boissons"):
+        st.session_state.exemple = "Quels sont les produits disponibles dans le rayon Boissons ?"
+with col3:
+    if st.button("🎁 Promotions en cours"):
+        st.session_state.exemple = "Quels produits sont en promotion en ce moment ?"
+
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.markdown(msg["content"])
 
-# Gestion des exemples cliquables
 if "exemple" in st.session_state and st.session_state.exemple:
     question_auto = st.session_state.exemple
     st.session_state.exemple = None
@@ -175,10 +176,8 @@ if question := st.chat_input("Ex: Quels produits sont en promotion cette semaine
     st.session_state.messages.append({"role": "user", "content": question})
     with st.chat_message("user"):
         st.markdown(question)
-
     with st.chat_message("assistant"):
         with st.spinner("Recherche en cours..."):
             reponse = repondre(question, vectorstore)
         st.markdown(reponse)
-
     st.session_state.messages.append({"role": "assistant", "content": reponse})
