@@ -1,0 +1,917 @@
+CATALOGUE PRODUITS - SUPERMARCHÉ FRAÎCHEUR+
+============================================================
+
+RAYON : PRODUITS LAITIERS
+------------------------------------------------------------
+
+PRODUIT #001
+Nom           : Yaourt nature bio
+Code EAN      : 3760844477821
+Marque        : Lactel Bio
+Catégorie     : Produits laitiers
+Description   : Yaourt nature issu de l'agriculture biologique, sans additifs ni conservateurs.
+Prix          : 2.74€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #002
+Nom           : Yaourt aux fruits fraises
+Code EAN      : 3760643830065
+Marque        : Danone Fruix
+Catégorie     : Produits laitiers
+Description   : Yaourt brassé aux fraises, onctueux et savoureux, enrichi en calcium.
+Prix          : 2.29€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #003
+Nom           : Yaourt grec nature
+Code EAN      : 3760282452500
+Marque        : Fage
+Catégorie     : Produits laitiers
+Description   : Yaourt grec épais et crémeux, riche en protéines, sans sucres ajoutés.
+Prix          : 4.46€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #004
+Nom           : Lait demi-écrémé UHT
+Code EAN      : 3760662989953
+Marque        : Lactel
+Catégorie     : Produits laitiers
+Description   : Lait demi-écrémé longue conservation, source de calcium et vitamines.
+Prix          : 1.88€
+Promotion     : Aucune
+
+PRODUIT #005
+Nom           : Lait entier frais
+Code EAN      : 3760613523428
+Marque        : Candia
+Catégorie     : Produits laitiers
+Description   : Lait entier pasteurisé, goût authentique, idéal pour le petit-déjeuner.
+Prix          : 2.07€
+Promotion     : Aucune
+
+PRODUIT #006
+Nom           : Beurre doux 250g
+Code EAN      : 3760253257107
+Marque        : Président
+Catégorie     : Produits laitiers
+Description   : Beurre doux élaboré à partir de crème fraîche de qualité supérieure.
+Prix          : 2.81€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #007
+Nom           : Beurre demi-sel 250g
+Code EAN      : 3760327055013
+Marque        : Elle & Vire
+Catégorie     : Produits laitiers
+Description   : Beurre légèrement salé, parfait pour les tartines et la cuisine.
+Prix          : 3.03€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #008
+Nom           : Crème fraîche épaisse
+Code EAN      : 3760310770925
+Marque        : Isigny
+Catégorie     : Produits laitiers
+Description   : Crème fraîche épaisse AOP, saveur douce et légèrement acidulée.
+Prix          : 3.09€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #009
+Nom           : Fromage blanc nature
+Code EAN      : 3760288269445
+Marque        : Jockey
+Catégorie     : Produits laitiers
+Description   : Fromage blanc lisse et onctueux, idéal nature ou avec des fruits.
+Prix          : 1.88€
+Promotion     : Aucune
+
+PRODUIT #010
+Nom           : Emmental râpé 200g
+Code EAN      : 3760352727779
+Marque        : Entremont
+Catégorie     : Produits laitiers
+Description   : Emmental français râpé finement, fondant et savoureux pour gratins.
+Prix          : 2.74€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #011
+Nom           : Camembert de Normandie
+Code EAN      : 3760249753384
+Marque        : Président
+Catégorie     : Produits laitiers
+Description   : Camembert AOP au lait cru, croûte fleurie, cœur coulant.
+Prix          : 4.81€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #012
+Nom           : Gruyère en tranches
+Code EAN      : 3760657825470
+Marque        : Leerdammer
+Catégorie     : Produits laitiers
+Description   : Gruyère suisse en tranches fines, goût fruité et légèrement salé.
+Prix          : 4.65€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #013
+Nom           : Mozzarella fraîche
+Code EAN      : 3760833937258
+Marque        : Galbani
+Catégorie     : Produits laitiers
+Description   : Mozzarella italienne fraîche, texture souple et goût délicat.
+Prix          : 2.43€
+Promotion     : Aucune
+
+PRODUIT #014
+Nom           : Petits-suisses x6
+Code EAN      : 3760989394096
+Marque        : Petit Louis
+Catégorie     : Produits laitiers
+Description   : Petits-suisses onctueux pour les enfants, riches en calcium.
+Prix          : 2.3€
+Promotion     : Aucune
+
+PRODUIT #015
+Nom           : Kéfir nature
+Code EAN      : 3760919710548
+Marque        : Activia Pro
+Catégorie     : Produits laitiers
+Description   : Boisson lactée fermentée, riche en probiotiques pour le transit.
+Prix          : 2.96€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #016
+Nom           : Lait végétal avoine
+Code EAN      : 3760538135658
+Marque        : Oatly
+Catégorie     : Produits laitiers
+Description   : Boisson à l'avoine bio, légèrement sucrée, alternative végétale.
+Prix          : 2.85€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #017
+Nom           : Ricotta fraîche 250g
+Code EAN      : 3760356802671
+Marque        : Zapetti
+Catégorie     : Produits laitiers
+Description   : Ricotta italienne douce et crémeuse, idéale pour les recettes.
+Prix          : 2.56€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #018
+Nom           : Skyr vanille
+Code EAN      : 3760367697218
+Marque        : Arla
+Catégorie     : Produits laitiers
+Description   : Skyr islandais à la vanille, très riche en protéines, faible en gras.
+Prix          : 3.57€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #019
+Nom           : Crème dessert chocolat
+Code EAN      : 3760749415073
+Marque        : Mont Blanc
+Catégorie     : Produits laitiers
+Description   : Crème dessert au chocolat noir onctueux, portion individuelle.
+Prix          : 1.3€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #020
+Nom           : Comté 12 mois affiné
+Code EAN      : 3760467255217
+Marque        : Marcel Petite
+Catégorie     : Produits laitiers
+Description   : Comté AOP affiné 12 mois, arômes fruités et noisette prononcés.
+Prix          : 4.9€
+Promotion     : Aucune
+
+RAYON : BOISSONS
+------------------------------------------------------------
+
+PRODUIT #021
+Nom           : Jus d'orange pressé 1L
+Code EAN      : 3760544429991
+Marque        : Tropicana
+Catégorie     : Boissons
+Description   : Jus d'orange 100% pur jus sans sucres ajoutés, pressé à froid.
+Prix          : 5.84€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #022
+Nom           : Eau minérale plate 1.5L
+Code EAN      : 3760300855821
+Marque        : Evian
+Catégorie     : Boissons
+Description   : Eau minérale naturelle des Alpes, légère et pure, faible en sodium.
+Prix          : 0.94€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #023
+Nom           : Eau pétillante 1.5L
+Code EAN      : 3760199017650
+Marque        : Perrier
+Catégorie     : Boissons
+Description   : Eau gazeuse naturelle, bulles fines et persistantes, zéro calorie.
+Prix          : 1.31€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #024
+Nom           : Coca-Cola 1.5L
+Code EAN      : 3760259380261
+Marque        : Coca-Cola
+Catégorie     : Boissons
+Description   : Boisson gazeuse au cola, recette originale, rafraîchissante.
+Prix          : 2.73€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #025
+Nom           : Jus de pomme 1L
+Code EAN      : 3760691241665
+Marque        : Andros
+Catégorie     : Boissons
+Description   : Jus de pomme sans sucres ajoutés, élaboré à partir de pommes françaises.
+Prix          : 4.2€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #026
+Nom           : Limonade artisanale
+Code EAN      : 3760678934675
+Marque        : Lorina
+Catégorie     : Boissons
+Description   : Limonade française artisanale, recette traditionnelle depuis 1895.
+Prix          : 4.17€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #027
+Nom           : Thé glacé pêche 1.5L
+Code EAN      : 3760581084981
+Marque        : Lipton
+Catégorie     : Boissons
+Description   : Thé glacé saveur pêche, légèrement sucré, désaltérant.
+Prix          : 1.94€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #028
+Nom           : Sirop grenadine 75cl
+Code EAN      : 3760780348468
+Marque        : Teisseire
+Catégorie     : Boissons
+Description   : Sirop de grenadine à diluer, idéal pour les diabolo et cocktails.
+Prix          : 2.64€
+Promotion     : Aucune
+
+PRODUIT #029
+Nom           : Smoothie mangue-passion
+Code EAN      : 3760484046251
+Marque        : Innocent
+Catégorie     : Boissons
+Description   : Smoothie 100% fruits mangue et passion, sans sucres ajoutés.
+Prix          : 4.81€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #030
+Nom           : Café soluble 200g
+Code EAN      : 3760330452024
+Marque        : Nescafé Gold
+Catégorie     : Boissons
+Description   : Café soluble haut de gamme, arôme intense et saveur équilibrée.
+Prix          : 7.78€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #031
+Nom           : Capsules café x10
+Code EAN      : 3760927031364
+Marque        : Nespresso
+Catégorie     : Boissons
+Description   : Capsules compatibles Nespresso, intensité 8, notes boisées.
+Prix          : 4.87€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #032
+Nom           : Lait d'amande 1L
+Code EAN      : 3760953466995
+Marque        : Alpro
+Catégorie     : Boissons
+Description   : Boisson végétale à l'amande, légère et naturellement sucrée.
+Prix          : 2.89€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #033
+Nom           : Kombucha gingembre
+Code EAN      : 3760234630814
+Marque        : GT's
+Catégorie     : Boissons
+Description   : Kombucha fermenté au gingembre, riche en probiotiques naturels.
+Prix          : 4.65€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #034
+Nom           : Jus de tomate 75cl
+Code EAN      : 3760606968653
+Marque        : Joker
+Catégorie     : Boissons
+Description   : Jus de tomate légèrement salé, idéal pour cocktails et cuisine.
+Prix          : 2.63€
+Promotion     : Aucune
+
+PRODUIT #035
+Nom           : Boisson énergisante
+Code EAN      : 3760485735871
+Marque        : Monster
+Catégorie     : Boissons
+Description   : Boisson énergisante avec caféine et vitamines B, goût original.
+Prix          : 2.08€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #036
+Nom           : Infusion camomille x20
+Code EAN      : 3760832372941
+Marque        : Lipton
+Catégorie     : Boissons
+Description   : Infusion fleurs de camomille, apaisante et naturellement sans théine.
+Prix          : 2.7€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #037
+Nom           : Eau aromatisée citron
+Code EAN      : 3760649352795
+Marque        : Volvic Touch
+Catégorie     : Boissons
+Description   : Eau minérale aromatisée citron-citron vert, zéro sucre.
+Prix          : 1.95€
+Promotion     : Aucune
+
+PRODUIT #038
+Nom           : Cidre brut 75cl
+Code EAN      : 3760803277414
+Marque        : Loïc Raison
+Catégorie     : Boissons
+Description   : Cidre brut breton, légèrement pétillant, arômes de pomme fraîche.
+Prix          : 3.66€
+Promotion     : Aucune
+
+PRODUIT #039
+Nom           : Jus multifruits 1L
+Code EAN      : 3760292300169
+Marque        : Minute Maid
+Catégorie     : Boissons
+Description   : Mélange de jus de fruits tropicaux, vitaminé et sans conservateurs.
+Prix          : 3.6€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #040
+Nom           : Tonic water 33cl x6
+Code EAN      : 3760545674193
+Marque        : Schweppes
+Catégorie     : Boissons
+Description   : Eau tonique classique, amère et pétillante, idéale avec gin.
+Prix          : 5.88€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+RAYON : BOULANGERIE
+------------------------------------------------------------
+
+PRODUIT #041
+Nom           : Pain de mie complet
+Code EAN      : 3760885880120
+Marque        : Harry's
+Catégorie     : Boulangerie
+Description   : Pain de mie aux céréales complètes, riche en fibres, 500g.
+Prix          : 2.26€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #042
+Nom           : Baguette précuite
+Code EAN      : 3760365776231
+Marque        : Banette
+Catégorie     : Boulangerie
+Description   : Baguette à finir au four, croûte dorée et mie aérée garanties.
+Prix          : 1.26€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #043
+Nom           : Croissants pur beurre x6
+Code EAN      : 3760675046846
+Marque        : Lune de Miel
+Catégorie     : Boulangerie
+Description   : Croissants feuilletés pur beurre, dorés et croustillants.
+Prix          : 4.16€
+Promotion     : Aucune
+
+PRODUIT #044
+Nom           : Brioche tressée 500g
+Code EAN      : 3760944838166
+Marque        : Pasquier
+Catégorie     : Boulangerie
+Description   : Brioche tressée moelleuse, recette traditionnelle au beurre frais.
+Prix          : 4.33€
+Promotion     : Aucune
+
+PRODUIT #045
+Nom           : Pain aux noix 400g
+Code EAN      : 3760693637344
+Marque        : Moulin d'Or
+Catégorie     : Boulangerie
+Description   : Pain rustique aux noix, cuit au four à bois, saveur authentique.
+Prix          : 3.97€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #046
+Nom           : Muffins myrtilles x4
+Code EAN      : 3760621575770
+Marque        : Weight Watchers
+Catégorie     : Boulangerie
+Description   : Muffins moelleux aux myrtilles, moins de 150 calories par pièce.
+Prix          : 3.81€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #047
+Nom           : Pain de seigle 500g
+Code EAN      : 3760871062921
+Marque        : Graines de Vie
+Catégorie     : Boulangerie
+Description   : Pain de seigle dense et savoureux, riche en fibres et minéraux.
+Prix          : 3.4€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #048
+Nom           : Financiers amandes x8
+Code EAN      : 3760906385635
+Marque        : St Michel
+Catégorie     : Boulangerie
+Description   : Financiers dorés aux amandes, moelleux à cœur, recette classique.
+Prix          : 4.7€
+Promotion     : Aucune
+
+PRODUIT #049
+Nom           : Pain pita x6
+Code EAN      : 3760570743324
+Marque        : Moulins Mahjoub
+Catégorie     : Boulangerie
+Description   : Pains pita moelleux, idéaux pour les sandwichs et mezze.
+Prix          : 3.48€
+Promotion     : Aucune
+
+PRODUIT #050
+Nom           : Tortillas blé x8
+Code EAN      : 3760296926516
+Marque        : Old El Paso
+Catégorie     : Boulangerie
+Description   : Tortillas souples à la farine de blé, pour wraps et fajitas.
+Prix          : 3.82€
+Promotion     : Aucune
+
+PRODUIT #051
+Nom           : Cake citron
+Code EAN      : 3760694489117
+Marque        : Bonne Maman
+Catégorie     : Boulangerie
+Description   : Cake moelleux au citron confit, recette familiale traditionnelle.
+Prix          : 5.06€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #052
+Nom           : Galettes bretonne x10
+Code EAN      : 3760703460291
+Marque        : Traou Mad
+Catégorie     : Boulangerie
+Description   : Galettes bretonnes pur beurre, croustillantes et fondantes.
+Prix          : 6.48€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #053
+Nom           : Pain hamburger x4
+Code EAN      : 3760535519588
+Marque        : Brioche Dorée
+Catégorie     : Boulangerie
+Description   : Pains à hamburger briochés, moelleux et légèrement sucrés.
+Prix          : 2.29€
+Promotion     : Aucune
+
+PRODUIT #054
+Nom           : Chapelure fine 500g
+Code EAN      : 3760207901777
+Marque        : Tipiak
+Catégorie     : Boulangerie
+Description   : Chapelure fine et dorée, parfaite pour paner viandes et poissons.
+Prix          : 2.87€
+Promotion     : Aucune
+
+PRODUIT #055
+Nom           : Crackers céréales x200g
+Code EAN      : 3760708886047
+Marque        : Wasa
+Catégorie     : Boulangerie
+Description   : Crackers croustillants aux céréales complètes, riches en fibres.
+Prix          : 3.59€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #056
+Nom           : Kouglof alsacien
+Code EAN      : 3760118033435
+Marque        : Alsace Délices
+Catégorie     : Boulangerie
+Description   : Kouglof moelleux aux raisins secs et amandes, recette alsacienne.
+Prix          : 6.89€
+Promotion     : Aucune
+
+PRODUIT #057
+Nom           : Pain de mie sans gluten
+Code EAN      : 3760411317119
+Marque        : Schär
+Catégorie     : Boulangerie
+Description   : Pain de mie sans gluten, moelleux et savoureux, 400g.
+Prix          : 4.19€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #058
+Nom           : Petit pain viennois x6
+Code EAN      : 3760381770082
+Marque        : Jacquet
+Catégorie     : Boulangerie
+Description   : Petits pains viennois dorés, légèrement sucrés, parfaits au goûter.
+Prix          : 3.77€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #059
+Nom           : Fougasse olives
+Code EAN      : 3760468248312
+Marque        : Boulangerie du Sud
+Catégorie     : Boulangerie
+Description   : Fougasse provençale aux olives vertes et romarin, 350g.
+Prix          : 4.4€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #060
+Nom           : Gressins italiens 125g
+Code EAN      : 3760797987504
+Marque        : Alessi
+Catégorie     : Boulangerie
+Description   : Gressins croustillants à l'huile d'olive, apéritif traditionnel.
+Prix          : 2.68€
+Promotion     : Aucune
+
+RAYON : LESSIVE ET ENTRETIEN
+------------------------------------------------------------
+
+PRODUIT #061
+Nom           : Lessive liquide 30 lavages
+Code EAN      : 3760265762499
+Marque        : Ariel
+Catégorie     : Lessive et entretien
+Description   : Lessive liquide efficace dès 30°C, élimine les taches tenaces.
+Prix          : 11.13€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #062
+Nom           : Lessive poudre 40 lavages
+Code EAN      : 3760540817660
+Marque        : Skip
+Catégorie     : Lessive et entretien
+Description   : Lessive en poudre haute performance, parfum frais longue durée.
+Prix          : 13.93€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #063
+Nom           : Lessive capsules x30
+Code EAN      : 3760156359177
+Marque        : Dash
+Catégorie     : Lessive et entretien
+Description   : Capsules 3-en-1 tout-en-un, lavage, détachant et brillance.
+Prix          : 17.15€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #064
+Nom           : Adoucissant 40 lavages
+Code EAN      : 3760677657156
+Marque        : Lenor
+Catégorie     : Lessive et entretien
+Description   : Adoucissant textile parfum pivoine, douceur et anti-statique.
+Prix          : 6.61€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #065
+Nom           : Détachant spray 500ml
+Code EAN      : 3760219831364
+Marque        : Vanish
+Catégorie     : Lessive et entretien
+Description   : Détachant pré-lavage en spray, efficace sur sang, café, herbe.
+Prix          : 7.71€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #066
+Nom           : Nettoyant WC gel 750ml
+Code EAN      : 3760194761938
+Marque        : Domestos
+Catégorie     : Lessive et entretien
+Description   : Gel WC désinfectant, détartre et élimine 99,9% des bactéries.
+Prix          : 4.42€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #067
+Nom           : Liquide vaisselle citron
+Code EAN      : 3760253956175
+Marque        : Fairy
+Catégorie     : Lessive et entretien
+Description   : Liquide vaisselle ultra-dégraissant parfum citron, 750ml.
+Prix          : 3.26€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #068
+Nom           : Pastilles lave-vaisselle x40
+Code EAN      : 3760889718156
+Marque        : Finish
+Catégorie     : Lessive et entretien
+Description   : Pastilles tout-en-un, dégraissage, brillance et sel intégré.
+Prix          : 11.52€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #069
+Nom           : Spray nettoyant cuisine
+Code EAN      : 3760727573853
+Marque        : Mr Propre
+Catégorie     : Lessive et entretien
+Description   : Spray multi-surfaces cuisine, dégraisse et désinfecte sans rinçage.
+Prix          : 5.43€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #070
+Nom           : Lingettes désinfectantes x80
+Code EAN      : 3760429601776
+Marque        : Dettol
+Catégorie     : Lessive et entretien
+Description   : Lingettes antibactériennes, efficaces sur toutes les surfaces.
+Prix          : 6.32€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #071
+Nom           : Déboucheur canalisation
+Code EAN      : 3760823026347
+Marque        : Destop
+Catégorie     : Lessive et entretien
+Description   : Gel déboucheur puissant, action rapide en 15 minutes.
+Prix          : 6.56€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #072
+Nom           : Nettoyant sol pin 1L
+Code EAN      : 3760438735121
+Marque        : Ajax
+Catégorie     : Lessive et entretien
+Description   : Nettoyant sol parfum pin, désinfecte et laisse un sol brillant.
+Prix          : 3.28€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #073
+Nom           : Éponges grattantes x5
+Code EAN      : 3760162289246
+Marque        : Spontex
+Catégorie     : Lessive et entretien
+Description   : Éponges double-face, côté doux et côté abrasif pour le récurage.
+Prix          : 4.45€
+Promotion     : Aucune
+
+PRODUIT #074
+Nom           : Sacs poubelle 50L x30
+Code EAN      : 3760875749998
+Marque        : Handy Bag
+Catégorie     : Lessive et entretien
+Description   : Sacs poubelle résistants avec lien coulissant, 50 litres.
+Prix          : 4.5€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #075
+Nom           : Papier essuie-tout x3
+Code EAN      : 3760210300673
+Marque        : Sopalin
+Catégorie     : Lessive et entretien
+Description   : Essuie-tout ultra-absorbant, 3 rouleaux, résistant à l'humidité.
+Prix          : 5.65€
+Promotion     : Aucune
+
+PRODUIT #076
+Nom           : Nettoyant vitres 500ml
+Code EAN      : 3760575200922
+Marque        : Cif
+Catégorie     : Lessive et entretien
+Description   : Nettoyant vitres sans traces, séchage rapide, parfum frais.
+Prix          : 4.54€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #077
+Nom           : Désodorisant WC x2
+Code EAN      : 3760405958505
+Marque        : Canard
+Catégorie     : Lessive et entretien
+Description   : Blocs désodorisants WC sous la cuvette, parfum lavande 3 semaines.
+Prix          : 4.47€
+Promotion     : Aucune
+
+PRODUIT #078
+Nom           : Brosse WC avec support
+Code EAN      : 3760484738056
+Marque        : Leifheit
+Catégorie     : Lessive et entretien
+Description   : Brosse WC en acier inoxydable, support inclus, design épuré.
+Prix          : 8.37€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #079
+Nom           : Nettoyant four dégraissant
+Code EAN      : 3760790767377
+Marque        : Starwax
+Catégorie     : Lessive et entretien
+Description   : Nettoyant four puissant, dissout graisses carbonisées sans effort.
+Prix          : 7.44€
+Promotion     : Aucune
+
+PRODUIT #080
+Nom           : Vinaigre blanc ménager 1L
+Code EAN      : 3760226536928
+Marque        : Starwax
+Catégorie     : Lessive et entretien
+Description   : Vinaigre blanc ménager multi-usages, détartrant naturel et écologique.
+Prix          : 2.8€
+Promotion     : Aucune
+
+RAYON : EPICERIE SALÉE
+------------------------------------------------------------
+
+PRODUIT #081
+Nom           : Pâtes penne rigate 500g
+Code EAN      : 3760486965904
+Marque        : Barilla
+Catégorie     : Epicerie salée
+Description   : Pâtes italiennes penne rigate, semoule de blé dur, cuisson 11min.
+Prix          : 2.02€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #082
+Nom           : Riz basmati 1kg
+Code EAN      : 3760194343818
+Marque        : Uncle Ben's
+Catégorie     : Epicerie salée
+Description   : Riz basmati long grain, grains fins et parfumés, précuit vapeur.
+Prix          : 4.33€
+Promotion     : Aucune
+
+PRODUIT #083
+Nom           : Sauce tomate basilic 400g
+Code EAN      : 3760974729985
+Marque        : Mutti
+Catégorie     : Epicerie salée
+Description   : Sauce tomate aux tomates pelées italiennes et basilic frais.
+Prix          : 2.9€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #084
+Nom           : Thon à l'huile d'olive
+Code EAN      : 3760681723144
+Marque        : Petit Navire
+Catégorie     : Epicerie salée
+Description   : Thon albacore à l'huile d'olive vierge extra, pêche durable.
+Prix          : 3.22€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #085
+Nom           : Lentilles vertes 500g
+Code EAN      : 3760117875670
+Marque        : Sabarot
+Catégorie     : Epicerie salée
+Description   : Lentilles vertes du Puy AOP, cuisson rapide, riches en protéines.
+Prix          : 2.61€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #086
+Nom           : Sardines à l'huile x3
+Code EAN      : 3760779082709
+Marque        : Connétable
+Catégorie     : Epicerie salée
+Description   : Sardines de l'Atlantique à l'huile d'olive, millésimées.
+Prix          : 6.9€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #087
+Nom           : Cornichons fins 400g
+Code EAN      : 3760136070376
+Marque        : Amora
+Catégorie     : Epicerie salée
+Description   : Cornichons fins extra croquants au vinaigre, bocal 400g.
+Prix          : 2.57€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #088
+Nom           : Moutarde de Dijon 200g
+Code EAN      : 3760966737116
+Marque        : Maille
+Catégorie     : Epicerie salée
+Description   : Moutarde forte de Dijon, recette originale depuis 1747.
+Prix          : 2.39€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #089
+Nom           : Huile d'olive vierge 75cl
+Code EAN      : 3760846578688
+Marque        : Puget
+Catégorie     : Epicerie salée
+Description   : Huile d'olive vierge extra, première pression à froid, fruitée.
+Prix          : 9.43€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #090
+Nom           : Vinaigre balsamique 25cl
+Code EAN      : 3760274429734
+Marque        : Modena
+Catégorie     : Epicerie salée
+Description   : Vinaigre balsamique de Modène IGP, vieilli en fût de chêne.
+Prix          : 4.6€
+Promotion     : Aucune
+
+PRODUIT #091
+Nom           : Chips nature 150g
+Code EAN      : 3760606466855
+Marque        : Lay's
+Catégorie     : Epicerie salée
+Description   : Chips de pommes de terre nature, croustillantes et légèrement salées.
+Prix          : 2.56€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #092
+Nom           : Crackers apéritif 100g
+Code EAN      : 3760518024568
+Marque        : TUC
+Catégorie     : Epicerie salée
+Description   : Crackers salés croustillants, parfaits pour l'apéritif.
+Prix          : 2.73€
+Promotion     : -15% du 10/05/2025 au 25/05/2025
+
+PRODUIT #093
+Nom           : Pois chiches en boîte 400g
+Code EAN      : 3760267139396
+Marque        : Florette
+Catégorie     : Epicerie salée
+Description   : Pois chiches cuits prêts à l'emploi, source de protéines végétales.
+Prix          : 1.87€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #094
+Nom           : Bouillon de volaille x8
+Code EAN      : 3760241035223
+Marque        : Maggi
+Catégorie     : Epicerie salée
+Description   : Cubes de bouillon de volaille, pour soupes, risottos et sauces.
+Prix          : 2.22€
+Promotion     : Aucune
+
+PRODUIT #095
+Nom           : Sel de mer fin 1kg
+Code EAN      : 3760539166882
+Marque        : La Baleine
+Catégorie     : Epicerie salée
+Description   : Sel de mer fin non raffiné, récolté en Camargue, iodé naturel.
+Prix          : 1.78€
+Promotion     : -10% du 01/05/2025 au 15/05/2025
+
+PRODUIT #096
+Nom           : Poivre noir moulu 50g
+Code EAN      : 3760216927665
+Marque        : Ducros
+Catégorie     : Epicerie salée
+Description   : Poivre noir moulu finement, origine Madagascar, arôme intense.
+Prix          : 3.27€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #097
+Nom           : Quinoa blanc 500g
+Code EAN      : 3760340652576
+Marque        : Alter Eco
+Catégorie     : Epicerie salée
+Description   : Quinoa blanc équitable, riche en protéines et acides aminés.
+Prix          : 5.74€
+Promotion     : -30% du 20/05/2025 au 05/06/2025
+
+PRODUIT #098
+Nom           : Pesto alla genovese 190g
+Code EAN      : 3760360911871
+Marque        : Barilla
+Catégorie     : Epicerie salée
+Description   : Pesto basilic génois, huile d'olive et pignons, recette italienne.
+Prix          : 4.8€
+Promotion     : -20% du 01/06/2025 au 30/06/2025
+
+PRODUIT #099
+Nom           : Mayonnaise 400g
+Code EAN      : 3760726045441
+Marque        : Hellmann's
+Catégorie     : Epicerie salée
+Description   : Mayonnaise classique aux œufs frais, texture crémeuse et onctueuse.
+Prix          : 4.36€
+Promotion     : -25% du 15/05/2025 au 31/05/2025
+
+PRODUIT #100
+Nom           : Chocolat noir 70% 100g
+Code EAN      : 3760851833948
+Marque        : Lindt
+Catégorie     : Epicerie salée
+Description   : Chocolat noir intense 70% cacao, origine Équateur, tablette 100g.
+Prix          : 3.7€
+Promotion     : Aucune
