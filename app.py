@@ -19,6 +19,34 @@ st.title("🛒 SmartMarket Assistant")
 st.caption("Posez vos questions sur le catalogue et les promotions en cours.")
 
 @st.cache_resource
+
+def initialiser_chroma_si_vide():
+    import os
+    if not os.path.exists("./chroma_db"):
+        from langchain_community.document_loaders import TextLoader
+        from langchain.text_splitter import RecursiveCharacterTextSplitter
+        import re, shutil
+
+        loader = TextLoader("catalogue.txt", encoding="utf-8")
+        documents = loader.load()
+        splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+        chunks = splitter.split_documents(documents)
+
+        for chunk in chunks:
+            text = chunk.page_content
+            prix_match = re.search(r"Prix\s*:\s*([\d.]+)€", text)
+            chunk.metadata["prix"] = float(prix_match.group(1)) if prix_match else None
+            cat_match = re.search(r"Catégorie\s*:\s*(.+)", text)
+            chunk.metadata["categorie"] = cat_match.group(1).strip() if cat_match else None
+
+        Chroma.from_documents(
+            documents=chunks,
+            embedding=OpenAIEmbeddings(model="text-embedding-3-small"),
+            persist_directory="./chroma_db"
+        )
+
+initialiser_chroma_si_vide()
+
 def load_vectorstore():
     return Chroma(
         persist_directory="./chroma_db",
